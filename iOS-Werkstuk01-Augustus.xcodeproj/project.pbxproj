@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9CF19FC2301A668003C7368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF19FB2301A668003C7368 /* AppDelegate.swift */; };
+		D9CF19FE2301A668003C7368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF19FD2301A668003C7368 /* ViewController.swift */; };
+		D9CF1A012301A668003C7368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CF19FF2301A668003C7368 /* Main.storyboard */; };
+		D9CF1A032301A669003C7368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CF1A022301A669003C7368 /* Assets.xcassets */; };
+		D9CF1A062301A669003C7368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CF1A042301A669003C7368 /* LaunchScreen.storyboard */; };
+		D9CF1A112301A66A003C7368 /* iOS_Werkstuk01_AugustusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF1A102301A66A003C7368 /* iOS_Werkstuk01_AugustusTests.swift */; };
+		D9CF1A1C2301A66A003C7368 /* iOS_Werkstuk01_AugustusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF1A1B2301A66A003C7368 /* iOS_Werkstuk01_AugustusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9CF1A0D2301A66A003C7368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9CF19F02301A668003C7368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9CF19F72301A668003C7368;
+			remoteInfo = "iOS-Werkstuk01-Augustus";
+		};
+		D9CF1A182301A66A003C7368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9CF19F02301A668003C7368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9CF19F72301A668003C7368;
+			remoteInfo = "iOS-Werkstuk01-Augustus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9CF19F82301A668003C7368 /* iOS-Werkstuk01-Augustus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Werkstuk01-Augustus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CF19FB2301A668003C7368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9CF19FD2301A668003C7368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9CF1A002301A668003C7368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9CF1A022301A669003C7368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9CF1A052301A669003C7368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9CF1A072301A669003C7368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CF1A0C2301A66A003C7368 /* iOS-Werkstuk01-AugustusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Werkstuk01-AugustusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CF1A102301A66A003C7368 /* iOS_Werkstuk01_AugustusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Werkstuk01_AugustusTests.swift; sourceTree = "<group>"; };
+		D9CF1A122301A66A003C7368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CF1A172301A66A003C7368 /* iOS-Werkstuk01-AugustusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Werkstuk01-AugustusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CF1A1B2301A66A003C7368 /* iOS_Werkstuk01_AugustusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Werkstuk01_AugustusUITests.swift; sourceTree = "<group>"; };
+		D9CF1A1D2301A66A003C7368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9CF19F52301A668003C7368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CF1A092301A66A003C7368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CF1A142301A66A003C7368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9CF19EF2301A668003C7368 = {
+			isa = PBXGroup;
+			children = (
+				D9CF19FA2301A668003C7368 /* iOS-Werkstuk01-Augustus */,
+				D9CF1A0F2301A66A003C7368 /* iOS-Werkstuk01-AugustusTests */,
+				D9CF1A1A2301A66A003C7368 /* iOS-Werkstuk01-AugustusUITests */,
+				D9CF19F92301A668003C7368 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9CF19F92301A668003C7368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9CF19F82301A668003C7368 /* iOS-Werkstuk01-Augustus.app */,
+				D9CF1A0C2301A66A003C7368 /* iOS-Werkstuk01-AugustusTests.xctest */,
+				D9CF1A172301A66A003C7368 /* iOS-Werkstuk01-AugustusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9CF19FA2301A668003C7368 /* iOS-Werkstuk01-Augustus */ = {
+			isa = PBXGroup;
+			children = (
+				D9CF19FB2301A668003C7368 /* AppDelegate.swift */,
+				D9CF19FD2301A668003C7368 /* ViewController.swift */,
+				D9CF19FF2301A668003C7368 /* Main.storyboard */,
+				D9CF1A022301A669003C7368 /* Assets.xcassets */,
+				D9CF1A042301A669003C7368 /* LaunchScreen.storyboard */,
+				D9CF1A072301A669003C7368 /* Info.plist */,
+			);
+			path = "iOS-Werkstuk01-Augustus";
+			sourceTree = "<group>";
+		};
+		D9CF1A0F2301A66A003C7368 /* iOS-Werkstuk01-AugustusTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9CF1A102301A66A003C7368 /* iOS_Werkstuk01_AugustusTests.swift */,
+				D9CF1A122301A66A003C7368 /* Info.plist */,
+			);
+			path = "iOS-Werkstuk01-AugustusTests";
+			sourceTree = "<group>";
+		};
+		D9CF1A1A2301A66A003C7368 /* iOS-Werkstuk01-AugustusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9CF1A1B2301A66A003C7368 /* iOS_Werkstuk01_AugustusUITests.swift */,
+				D9CF1A1D2301A66A003C7368 /* Info.plist */,
+			);
+			path = "iOS-Werkstuk01-AugustusUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9CF19F72301A668003C7368 /* iOS-Werkstuk01-Augustus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CF1A202301A66A003C7368 /* Build configuration list for PBXNativeTarget "iOS-Werkstuk01-Augustus" */;
+			buildPhases = (
+				D9CF19F42301A668003C7368 /* Sources */,
+				D9CF19F52301A668003C7368 /* Frameworks */,
+				D9CF19F62301A668003C7368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Werkstuk01-Augustus";
+			productName = "iOS-Werkstuk01-Augustus";
+			productReference = D9CF19F82301A668003C7368 /* iOS-Werkstuk01-Augustus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9CF1A0B2301A66A003C7368 /* iOS-Werkstuk01-AugustusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CF1A232301A66A003C7368 /* Build configuration list for PBXNativeTarget "iOS-Werkstuk01-AugustusTests" */;
+			buildPhases = (
+				D9CF1A082301A66A003C7368 /* Sources */,
+				D9CF1A092301A66A003C7368 /* Frameworks */,
+				D9CF1A0A2301A66A003C7368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9CF1A0E2301A66A003C7368 /* PBXTargetDependency */,
+			);
+			name = "iOS-Werkstuk01-AugustusTests";
+			productName = "iOS-Werkstuk01-AugustusTests";
+			productReference = D9CF1A0C2301A66A003C7368 /* iOS-Werkstuk01-AugustusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9CF1A162301A66A003C7368 /* iOS-Werkstuk01-AugustusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CF1A262301A66A003C7368 /* Build configuration list for PBXNativeTarget "iOS-Werkstuk01-AugustusUITests" */;
+			buildPhases = (
+				D9CF1A132301A66A003C7368 /* Sources */,
+				D9CF1A142301A66A003C7368 /* Frameworks */,
+				D9CF1A152301A66A003C7368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9CF1A192301A66A003C7368 /* PBXTargetDependency */,
+			);
+			name = "iOS-Werkstuk01-AugustusUITests";
+			productName = "iOS-Werkstuk01-AugustusUITests";
+			productReference = D9CF1A172301A66A003C7368 /* iOS-Werkstuk01-AugustusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9CF19F02301A668003C7368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Imane Helalouch";
+				TargetAttributes = {
+					D9CF19F72301A668003C7368 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D9CF1A0B2301A66A003C7368 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D9CF19F72301A668003C7368;
+					};
+					D9CF1A162301A66A003C7368 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D9CF19F72301A668003C7368;
+					};
+				};
+			};
+			buildConfigurationList = D9CF19F32301A668003C7368 /* Build configuration list for PBXProject "iOS-Werkstuk01-Augustus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9CF19EF2301A668003C7368;
+			productRefGroup = D9CF19F92301A668003C7368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9CF19F72301A668003C7368 /* iOS-Werkstuk01-Augustus */,
+				D9CF1A0B2301A66A003C7368 /* iOS-Werkstuk01-AugustusTests */,
+				D9CF1A162301A66A003C7368 /* iOS-Werkstuk01-AugustusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9CF19F62301A668003C7368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CF1A062301A669003C7368 /* LaunchScreen.storyboard in Resources */,
+				D9CF1A032301A669003C7368 /* Assets.xcassets in Resources */,
+				D9CF1A012301A668003C7368 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CF1A0A2301A66A003C7368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CF1A152301A66A003C7368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9CF19F42301A668003C7368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CF19FE2301A668003C7368 /* ViewController.swift in Sources */,
+				D9CF19FC2301A668003C7368 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CF1A082301A66A003C7368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CF1A112301A66A003C7368 /* iOS_Werkstuk01_AugustusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CF1A132301A66A003C7368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CF1A1C2301A66A003C7368 /* iOS_Werkstuk01_AugustusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9CF1A0E2301A66A003C7368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9CF19F72301A668003C7368 /* iOS-Werkstuk01-Augustus */;
+			targetProxy = D9CF1A0D2301A66A003C7368 /* PBXContainerItemProxy */;
+		};
+		D9CF1A192301A66A003C7368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9CF19F72301A668003C7368 /* iOS-Werkstuk01-Augustus */;
+			targetProxy = D9CF1A182301A66A003C7368 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9CF19FF2301A668003C7368 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9CF1A002301A668003C7368 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9CF1A042301A669003C7368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9CF1A052301A669003C7368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9CF1A1E2301A66A003C7368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9CF1A1F2301A66A003C7368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9CF1A212301A66A003C7368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-Werkstuk01-Augustus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.iOS-Werkstuk01-Augustus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9CF1A222301A66A003C7368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-Werkstuk01-Augustus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.iOS-Werkstuk01-Augustus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9CF1A242301A66A003C7368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-Werkstuk01-AugustusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.iOS-Werkstuk01-AugustusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Werkstuk01-Augustus.app/iOS-Werkstuk01-Augustus";
+			};
+			name = Debug;
+		};
+		D9CF1A252301A66A003C7368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-Werkstuk01-AugustusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.iOS-Werkstuk01-AugustusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Werkstuk01-Augustus.app/iOS-Werkstuk01-Augustus";
+			};
+			name = Release;
+		};
+		D9CF1A272301A66A003C7368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-Werkstuk01-AugustusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.iOS-Werkstuk01-AugustusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-Werkstuk01-Augustus";
+			};
+			name = Debug;
+		};
+		D9CF1A282301A66A003C7368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-Werkstuk01-AugustusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.iOS-Werkstuk01-AugustusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-Werkstuk01-Augustus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9CF19F32301A668003C7368 /* Build configuration list for PBXProject "iOS-Werkstuk01-Augustus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CF1A1E2301A66A003C7368 /* Debug */,
+				D9CF1A1F2301A66A003C7368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9CF1A202301A66A003C7368 /* Build configuration list for PBXNativeTarget "iOS-Werkstuk01-Augustus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CF1A212301A66A003C7368 /* Debug */,
+				D9CF1A222301A66A003C7368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9CF1A232301A66A003C7368 /* Build configuration list for PBXNativeTarget "iOS-Werkstuk01-AugustusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CF1A242301A66A003C7368 /* Debug */,
+				D9CF1A252301A66A003C7368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9CF1A262301A66A003C7368 /* Build configuration list for PBXNativeTarget "iOS-Werkstuk01-AugustusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CF1A272301A66A003C7368 /* Debug */,
+				D9CF1A282301A66A003C7368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9CF19F02301A668003C7368 /* Project object */;
+}
