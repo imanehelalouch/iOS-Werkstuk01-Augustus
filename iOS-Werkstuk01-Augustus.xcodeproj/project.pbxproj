@@ -14,6 +14,11 @@
 		D9CF1A062301A669003C7368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CF1A042301A669003C7368 /* LaunchScreen.storyboard */; };
 		D9CF1A112301A66A003C7368 /* iOS_Werkstuk01_AugustusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF1A102301A66A003C7368 /* iOS_Werkstuk01_AugustusTests.swift */; };
 		D9CF1A1C2301A66A003C7368 /* iOS_Werkstuk01_AugustusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF1A1B2301A66A003C7368 /* iOS_Werkstuk01_AugustusUITests.swift */; };
+		D9CF1A2A2301B51C003C7368 /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF1A292301B51C003C7368 /* Persoon.swift */; };
+		D9CF1A2C2301C4EB003C7368 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF1A2B2301C4EB003C7368 /* TableViewController.swift */; };
+		D9CF1A2E2301C6FA003C7368 /* DetailsPersoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF1A2D2301C6FA003C7368 /* DetailsPersoonView.swift */; };
+		D9CF1A302301C707003C7368 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF1A2F2301C707003C7368 /* ImageViewController.swift */; };
+		D9CF1A322301C718003C7368 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF1A312301C718003C7368 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		D9CF1A172301A66A003C7368 /* iOS-Werkstuk01-AugustusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Werkstuk01-AugustusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CF1A1B2301A66A003C7368 /* iOS_Werkstuk01_AugustusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Werkstuk01_AugustusUITests.swift; sourceTree = "<group>"; };
 		D9CF1A1D2301A66A003C7368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CF1A292301B51C003C7368 /* Persoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
+		D9CF1A2B2301C4EB003C7368 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D9CF1A2D2301C6FA003C7368 /* DetailsPersoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPersoonView.swift; sourceTree = "<group>"; };
+		D9CF1A2F2301C707003C7368 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		D9CF1A312301C718003C7368 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				D9CF19FB2301A668003C7368 /* AppDelegate.swift */,
 				D9CF19FD2301A668003C7368 /* ViewController.swift */,
 				D9CF19FF2301A668003C7368 /* Main.storyboard */,
+				D9CF1A292301B51C003C7368 /* Persoon.swift */,
+				D9CF1A2B2301C4EB003C7368 /* TableViewController.swift */,
+				D9CF1A2D2301C6FA003C7368 /* DetailsPersoonView.swift */,
+				D9CF1A2F2301C707003C7368 /* ImageViewController.swift */,
+				D9CF1A312301C718003C7368 /* MapViewController.swift */,
 				D9CF1A022301A669003C7368 /* Assets.xcassets */,
 				D9CF1A042301A669003C7368 /* LaunchScreen.storyboard */,
 				D9CF1A072301A669003C7368 /* Info.plist */,
@@ -257,7 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9CF19FE2301A668003C7368 /* ViewController.swift in Sources */,
+				D9CF1A2A2301B51C003C7368 /* Persoon.swift in Sources */,
 				D9CF19FC2301A668003C7368 /* AppDelegate.swift in Sources */,
+				D9CF1A2C2301C4EB003C7368 /* TableViewController.swift in Sources */,
+				D9CF1A302301C707003C7368 /* ImageViewController.swift in Sources */,
+				D9CF1A2E2301C6FA003C7368 /* DetailsPersoonView.swift in Sources */,
+				D9CF1A322301C718003C7368 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
