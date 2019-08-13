@@ -16,13 +16,14 @@ class DetailsPersoonView: UIViewController, CLLocationManagerDelegate, MKMapView
     
     @IBOutlet weak var lblFirstName: UILabel!
     @IBOutlet weak var lblLastName: UILabel!
+    @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var lblStreetName: UILabel!
     @IBOutlet weak var lblHouseNumber: UILabel!
     @IBOutlet weak var lblPostcode: UILabel!
     @IBOutlet weak var lblCity: UILabel!
     @IBOutlet weak var lblPhoneNumber: UILabel!
     
-    @IBOutlet weak var img: UIImageView!
+    
     @IBOutlet weak var mapView: MKMapView!
     
     let location = CLLocationManager()
@@ -32,11 +33,13 @@ class DetailsPersoonView: UIViewController, CLLocationManagerDelegate, MKMapView
         
         self.lblFirstName.text = persoon.firstName.capitalized
         self.lblLastName.text = persoon.lastName.capitalized
+        self.img.image = UIImage(named: persoon.image)
         self.lblStreetName.text = persoon.streetName.capitalized
         self.lblHouseNumber.text = persoon.streetNumber.capitalized
         self.lblPostcode.text = persoon.postcode.capitalized
         self.lblCity.text = persoon.city.capitalized
-        self.img.image = UIImage(named: persoon.image)
+        self.lblPhoneNumber.text = persoon.phoneNumber.capitalized
+        
         
         let persoonLoc = MKPointAnnotation()
         persoonLoc.coordinate = CLLocationCoordinate2D(latitude: persoon.coordinaat1, longitude: persoon.coordinaat2)
@@ -52,7 +55,7 @@ class DetailsPersoonView: UIViewController, CLLocationManagerDelegate, MKMapView
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination as? ImageViewController{
-            vc.temp= self.img.image
+            vc.temp = self.img.image
         }
     }
     

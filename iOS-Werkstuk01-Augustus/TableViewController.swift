@@ -16,8 +16,11 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let persoon1 = Persoon(firstName: "T##String", lastName: "T##String", image: "T##String", streetName: "T##String", streetNumber: "T##String", postcode: "T##String", city: "T##String", phoneNumber: "T##String", coordinaat1: 12, coordinaat2: 32)
+        let persoon1 = Persoon(firstName: "Catherine", lastName: "Marge", image: "pp", streetName: "straatnaame", streetNumber: "nummer", postcode: "1020", city: "Brussels", phoneNumber: "0238292", coordinaat1: 12, coordinaat2: 32)
         personen.append(persoon1)
+        
+        let persoon2 = Persoon(firstName: "James", lastName: "Homer", image: "ppMan", streetName: "straatnaame", streetNumber: "nummer", postcode: "1020", city: "Brussels", phoneNumber: "0238292", coordinaat1: 12, coordinaat2: 32)
+        personen.append(persoon2)
     }
     
     override func didReceiveMemoryWarning() {
@@ -43,7 +46,7 @@ class TableViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "details" {
+        if segue.identifier == "toDetails" {
             let vc = segue.destination as! DetailsPersoonView
             let indexPath = self.tableView.indexPathForSelectedRow
             vc.persoon = personen[(indexPath?.row)!]
