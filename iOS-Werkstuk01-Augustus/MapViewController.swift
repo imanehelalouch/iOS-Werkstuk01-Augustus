@@ -20,8 +20,10 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let persoon1 = Persoon(firstName: "Imane", lastName: "Helalouch", image: "sijjd", streetName: "straat", streetNumber: "nummer", postcode: "1020", city: "Brussels", phoneNumber: "0192882", coordinaat1: 12, coordinaat2: 32)
+        let persoon1 = Persoon(firstName: "Catherine", lastName: "Helalouch", image: "sijjd", streetName: "straat", streetNumber: "nummer", postcode: "1020", city: "Brussels", phoneNumber: "0192882", coordinaat1:51.009737, coordinaat2:5.121142)
         personen.append(persoon1)
+        let persoon2 = Persoon(firstName: "James", lastName: "Helalouch", image: "sijjd", streetName: "straat", streetNumber: "nummer", postcode: "1020", city: "Brussels", phoneNumber: "0192882", coordinaat1:50.092442, coordinaat2:4.477733)
+        personen.append(persoon2)
         
         annotations()
         

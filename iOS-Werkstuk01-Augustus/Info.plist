@@ -24,13 +24,11 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
-	<key>UIRequiredDeviceCapabilities</key>
-	<array>
-		<string>armv7</string>
-	</array>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Please allow me</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Please allow me to see your location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Please allow me to see your location</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>Please allow me to see your location</string>
 </dict>
 </plist>

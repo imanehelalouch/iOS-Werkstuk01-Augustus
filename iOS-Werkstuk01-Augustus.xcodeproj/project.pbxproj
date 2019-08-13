@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9B84AA12303085B00D2D02E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B84AA02303085B00D2D02E /* AddViewController.swift */; };
 		D9CF19FC2301A668003C7368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF19FB2301A668003C7368 /* AppDelegate.swift */; };
 		D9CF19FE2301A668003C7368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF19FD2301A668003C7368 /* ViewController.swift */; };
 		D9CF1A012301A668003C7368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CF19FF2301A668003C7368 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9B84AA02303085B00D2D02E /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		D9CF19F82301A668003C7368 /* iOS-Werkstuk01-Augustus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Werkstuk01-Augustus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CF19FB2301A668003C7368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9CF19FD2301A668003C7368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				D9CF19FD2301A668003C7368 /* ViewController.swift */,
 				D9CF19FF2301A668003C7368 /* Main.storyboard */,
 				D9CF1A292301B51C003C7368 /* Persoon.swift */,
+				D9B84AA02303085B00D2D02E /* AddViewController.swift */,
 				D9CF1A2B2301C4EB003C7368 /* TableViewController.swift */,
 				D9CF1A2D2301C6FA003C7368 /* DetailsPersoonView.swift */,
 				D9CF1A2F2301C707003C7368 /* ImageViewController.swift */,
@@ -273,6 +276,7 @@
 			files = (
 				D9CF19FE2301A668003C7368 /* ViewController.swift in Sources */,
 				D9CF1A2A2301B51C003C7368 /* Persoon.swift in Sources */,
+				D9B84AA12303085B00D2D02E /* AddViewController.swift in Sources */,
 				D9CF19FC2301A668003C7368 /* AppDelegate.swift in Sources */,
 				D9CF1A2C2301C4EB003C7368 /* TableViewController.swift in Sources */,
 				D9CF1A302301C707003C7368 /* ImageViewController.swift in Sources */,

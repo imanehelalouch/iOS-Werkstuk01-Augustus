@@ -16,10 +16,10 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let persoon1 = Persoon(firstName: "Catherine", lastName: "Marge", image: "pp", streetName: "straatnaame", streetNumber: "nummer", postcode: "1020", city: "Brussels", phoneNumber: "0238292", coordinaat1: 12, coordinaat2: 32)
+        let persoon1 = Persoon(firstName: "Catherine", lastName: "Marge", image: "pp", streetName: "straatnaame", streetNumber: "nummer", postcode: "1020", city: "Brussels", phoneNumber: "0238292", coordinaat1:50.092442, coordinaat2:4.477733)
         personen.append(persoon1)
         
-        let persoon2 = Persoon(firstName: "James", lastName: "Homer", image: "ppMan", streetName: "straatnaame", streetNumber: "nummer", postcode: "1020", city: "Brussels", phoneNumber: "0238292", coordinaat1: 12, coordinaat2: 32)
+        let persoon2 = Persoon(firstName: "James", lastName: "Homer", image: "ppMan", streetName: "straatnaame", streetNumber: "nummer", postcode: "1020", city: "Brussels", phoneNumber: "0238292", coordinaat1:50.009442, coordinaat2:5.477733)
         personen.append(persoon2)
     }
     

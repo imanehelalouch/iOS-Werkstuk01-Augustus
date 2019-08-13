@@ -136,9 +136,6 @@
                                 <rect key="frame" x="20" y="64" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="ow8-s2-bok" kind="presentation" id="tsY-Lm-WwD"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mCu-X6-bNJ">
                                 <rect key="frame" x="20" y="102" width="374" height="128"/>
@@ -247,10 +244,10 @@
             </objects>
             <point key="canvasLocation" x="1361" y="-312"/>
         </scene>
-        <!--View Controller-->
+        <!--Add View Controller-->
         <scene sceneID="7ZW-SH-0Ek">
             <objects>
-                <viewController id="W1v-sg-mv5" sceneMemberID="viewController">
+                <viewController id="W1v-sg-mv5" customClass="AddViewController" customModule="iOS_Werkstuk01_Augustus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WUR-Tq-FEJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -261,6 +258,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="txtFirstName:" destination="fBJ-2e-Qoe" eventType="editingDidEnd" id="rVg-9S-7Mb"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OId-3a-yzy">
                                 <rect key="frame" x="20" y="210" width="374" height="30"/>
@@ -315,26 +315,42 @@
                                 <rect key="frame" x="192" y="714" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="clickAdd:" destination="W1v-sg-mv5" eventType="touchUpInside" id="geh-d2-hbp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aR5-sn-Rhi">
                                 <rect key="frame" x="20" y="73" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="ow8-s2-bok" kind="presentation" id="p6x-Sf-1u8"/>
+                                    <segue destination="ow8-s2-bok" kind="presentation" identifier="goToTable" id="p6x-Sf-1u8"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bZj-09-qIx"/>
                     </view>
+                    <connections>
+                        <outlet property="btnAdd" destination="hJp-9W-XNN" id="JsX-BQ-0fG"/>
+                        <outlet property="txtCity" destination="Lvn-XL-GHv" id="pRM-cn-KaL"/>
+                        <outlet property="txtFirstName" destination="u1a-I4-NhN" id="VTl-VY-hsi"/>
+                        <outlet property="txtHouseNumber" destination="ptc-bd-UfO" id="WZb-wV-e7r"/>
+                        <outlet property="txtLastName" destination="OId-3a-yzy" id="Eek-nS-V5U"/>
+                        <outlet property="txtPhoneNumber" destination="byj-FR-lpu" id="AYg-ac-fDs"/>
+                        <outlet property="txtPostcode" destination="HVU-qD-6FY" id="aJx-yl-OK4"/>
+                        <outlet property="txtStreetName" destination="TtX-aq-WAD" id="dIs-Ra-xnn"/>
+                        <segue destination="ow8-s2-bok" kind="show" id="nKj-wQ-eoZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iXi-At-Tvp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="fBJ-2e-Qoe" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1361" y="360"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tsY-Lm-WwD"/>
+        <segue reference="Yf4-4C-XEZ"/>
+        <segue reference="p6x-Sf-1u8"/>
     </inferredMetricsTieBreakers>
 </document>
