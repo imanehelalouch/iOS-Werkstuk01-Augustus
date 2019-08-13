@@ -25,14 +25,29 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Qxx-aC-kv0">
+                        <view key="tableFooterView" contentMode="scaleToFill" id="MMr-Yr-0L8">
                             <rect key="frame" x="0.0" y="155" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Add"/>
-                            <connections>
-                                <segue destination="W1v-sg-mv5" kind="presentation" identifier="" id="Yf4-4C-XEZ"/>
-                            </connections>
-                        </button>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="snJ-le-BrP">
+                                    <rect key="frame" x="134" y="14" width="146" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Go back to Map View"/>
+                                    <connections>
+                                        <segue destination="8Pt-8E-E9A" kind="presentation" id="Mly-gm-CRk"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EL0-3M-BCn">
+                                    <rect key="frame" x="192" y="-10" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Add"/>
+                                    <connections>
+                                        <segue destination="W1v-sg-mv5" kind="presentation" id="inL-B7-bdZ"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" rowHeight="83" id="5WL-ri-PDt">
                                 <rect key="frame" x="0.0" y="72" width="414" height="83"/>
@@ -86,6 +101,14 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Uz-pA-j8V">
+                                <rect key="frame" x="291" y="44" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go to List View"/>
+                                <connections>
+                                    <segue destination="ow8-s2-bok" kind="presentation" id="vCA-X5-bKY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="d4U-uX-G1W"/>
@@ -136,6 +159,9 @@
                                 <rect key="frame" x="20" y="64" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="ow8-s2-bok" kind="presentation" id="9gh-r2-8Vc"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mCu-X6-bNJ">
                                 <rect key="frame" x="20" y="102" width="374" height="128"/>
@@ -231,6 +257,9 @@
                                 <rect key="frame" x="26" y="66" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="Ule-8V-x4y" kind="presentation" id="aNm-l3-Byw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -324,7 +353,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="ow8-s2-bok" kind="presentation" identifier="goToTable" id="p6x-Sf-1u8"/>
+                                    <segue destination="ow8-s2-bok" kind="presentation" id="sap-z5-a0A"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -350,7 +379,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Yf4-4C-XEZ"/>
-        <segue reference="p6x-Sf-1u8"/>
+        <segue reference="aNm-l3-Byw"/>
+        <segue reference="Mly-gm-CRk"/>
+        <segue reference="vCA-X5-bKY"/>
     </inferredMetricsTieBreakers>
 </document>
